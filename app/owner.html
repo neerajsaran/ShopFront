@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Owner</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Owner</h1>
+  <br><br>
+
+  <br><br><button id="buttonDetail" onclick="checkDetail()">Get Detail</button><br>
+
+    <span id="cdtl"></span>
+    <span id="admAddr"></span><br><br>
+    <span id="admBal"></span><br><br>
+    <span id="contAddr"></span><br><br>
+    <span id="contBal"></span><br><br>
+
+    Enter Account to check Balance: <input id = "checkBal" type="text" name="cbal">
+
+    <br><br><button id="buttonCheck" onclick="checkBalance()">Check Balance</button><br>
+    <span id="scbal"></span><br><br>
+
+    Enter Account to Make Payment: <input id = "sendBal" type="text" name="sbal"><br><br>
+
+    Enter Payment Amount: <input id = "sendAmt" type="text" name="samt">
+
+    <br><br><button id="buttonSend" onclick="sendBalance()">Make Payment</button><br>
+    <span id="smpay"></span><br><br>
+
+    <span id="status"></span><br><br>
+    <span id="status1"></span><br><br>
+    <p id="demo"></p>
+    <DIV ID="myDiv"></DIV></br>
+    <div id="dvTable" align="center"><tr>
+    </tr>
+</div>
+
+</body>
+</html>
